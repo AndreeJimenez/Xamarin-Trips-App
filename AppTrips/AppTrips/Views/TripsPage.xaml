@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:converter="clr-namespace:AppTrips.Converters"
+             mc:Ignorable="d"
+             x:Class="AppTrips.Views.TripsPage"
+             BackgroundImageSource="background.png"
+             Title="Listado de viajes">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Nuevo" Command="{Binding NewCommand}" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:ImageConverter x:Key="ImageConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <CollectionView
+            SelectionMode="Single"
+            ItemsSource="{Binding Trips}"
+            SelectedItem="{Binding TripSelected}"
+            SelectionChangedCommand="{Binding SelectCommand}"
+            x:Name="TripsColView">
+            <d:CollectionView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Viaje 1</x:String>
+                    <x:String>Viaje 2</x:String>
+                    <x:String>Viaje 3</x:String>
+                </x:Array>
+            </d:CollectionView.ItemsSource>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid
+                        Padding="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*" />
+                            <ColumnDefinition Width="3*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Image
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Grid.RowSpan="3"
+                            HeightRequest="150"
+                            WidthRequest="150"
+                            Aspect="AspectFill"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="CenterAndExpand"
+                            Source="{Binding ImageUrl, Converter={StaticResource ImageConverter}}"
+                            d:Source="not_found" />
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="1"
+                            Text="{Binding Title}"
+                            d:Text="Titulo"
+                            FontSize="Large" />
+                        <Label
+                            Grid.Row="1"
+                            Grid.Column="1"
+                            d:Text="Fecha"
+                            Text="{Binding TripDate, StringFormat='{0:dd MMM yy}'}" />
+                        <Label
+                            Grid.Row="2"
+                            Grid.Column="1"
+                            Text="{Binding Rating}"
+                            d:Text="Rating"
+                            FontAttributes="Bold" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </ContentPage.Content>
+</ContentPage>
