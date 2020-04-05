@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qJbiCPOrlXUVQBpbfq6Ket/u1aIBVQVDzKnmHNqW6gcrJofg8pzzRizuKuWztVBbhzMwwLXOEeche/RV+/m94w==",
+  "dgSpecHash": "MbjMvR47/SemH8QMRIe4Ojyh5s/z8baQ56WHDZhKlQoSp8APUIS2TsujZ7J25CAdEEmdvtBoBVs26ZGw+qBoyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AppTrips\\WebApiTrips\\WebApiTrips.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\google.protobuf\\3.6.1\\google.protobuf.3.6.1.nupkg.sha512",

@@ -7312,11 +7312,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AppTrips\\WebApiTrips\\WebApiTrips.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj",
       "projectName": "WebApiTrips",
-      "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AppTrips\\WebApiTrips\\WebApiTrips.csproj",
+      "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Proyectos Multiplataforma\\AppTrips\\WebApiTrips\\obj\\",
+      "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -7374,7 +7374,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

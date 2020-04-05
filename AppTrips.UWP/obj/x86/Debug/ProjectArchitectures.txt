@@ -1,1 +1,1 @@
-C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\AppTrips.UWP.csproj;x86
+C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\AppTrips.UWP.csproj;x86
