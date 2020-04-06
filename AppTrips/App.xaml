@@ -7,7 +7,7 @@
              x:Class="AppTrips.App">
     <Application.Resources>
         <ResourceDictionary>
-            <Color x:Key="NavigationBar">#C0B283</Color>
+            <Color x:Key="NavigationBar">#faa4a3</Color>
             <Style
                 TargetType="NavigationPage">
                 <Setter

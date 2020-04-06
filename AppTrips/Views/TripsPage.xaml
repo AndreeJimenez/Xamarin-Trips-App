@@ -7,9 +7,9 @@
              mc:Ignorable="d"
              x:Class="AppTrips.Views.TripsPage"
              BackgroundImageSource="background.png"
-             Title="Listado de viajes">
+             Title="Trips List">
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Nuevo" Command="{Binding NewCommand}" />
+        <ToolbarItem Text="New" Command="{Binding NewCommand}" />
     </ContentPage.ToolbarItems>
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -23,13 +23,6 @@
             SelectedItem="{Binding TripSelected}"
             SelectionChangedCommand="{Binding SelectCommand}"
             x:Name="TripsColView">
-            <d:CollectionView.ItemsSource>
-                <x:Array Type="{x:Type x:String}">
-                    <x:String>Viaje 1</x:String>
-                    <x:String>Viaje 2</x:String>
-                    <x:String>Viaje 3</x:String>
-                </x:Array>
-            </d:CollectionView.ItemsSource>
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid
@@ -42,11 +35,12 @@
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
                             <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
                         </Grid.RowDefinitions>
                         <Image
                             Grid.Row="0"
                             Grid.Column="0"
-                            Grid.RowSpan="3"
+                            Grid.RowSpan="4"
                             HeightRequest="150"
                             WidthRequest="150"
                             Aspect="AspectFill"
@@ -59,7 +53,8 @@
                             Grid.Column="1"
                             Text="{Binding Title}"
                             d:Text="Titulo"
-                            FontSize="Large" />
+                            FontSize="Large"
+                            TextColor="#831514"/>
                         <Label
                             Grid.Row="1"
                             Grid.Column="1"
@@ -68,9 +63,15 @@
                         <Label
                             Grid.Row="2"
                             Grid.Column="1"
+                            Text="{Binding Notes}"
+                            d:Text="Description"
+                            FontSize="Small"/>
+                        <Label
+                            Grid.Row="3"
+                            Grid.Column="1"
                             Text="{Binding Rating}"
                             d:Text="Rating"
-                            FontAttributes="Bold" />
+                            FontAttributes="Bold"/>
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>

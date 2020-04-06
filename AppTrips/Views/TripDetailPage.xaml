@@ -8,7 +8,7 @@
              x:Class="AppTrips.Views.TripDetailPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Delete" Command="{Binding DeleteCommand}" />
-        <ToolbarItem Text="Guardar" Command="{Binding SaveCommand}" />
+        <ToolbarItem Text="Save" Command="{Binding SaveCommand}" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView>
@@ -17,13 +17,15 @@
                     IsRunning="{Binding IsBusy}"
                     d:IsRunning="True" />
                 <Entry 
-                    Placeholder="Titulo" 
-                    Text="{Binding Title}" />
+                    Placeholder="Title" 
+                    Text="{Binding Title}"
+                    TextColor="#831514"/>
                 <DatePicker
                     Date="{Binding TripDate}" />
                 <Entry
                     Placeholder="Rating"
-                    Text="{Binding Rating}">
+                    Text="{Binding Rating}"
+                    TextColor="#831514">
                     <Entry.Triggers>
                         <EventTrigger
                             Event="TextChanged">
@@ -35,31 +37,48 @@
                     Increment="1"
                     Maximum="5"
                     Minimum="1"
-                    Value="{Binding Rating}" />
+                    Value="{Binding Rating}"
+                    HorizontalOptions="Center"/>
                 <Entry
-                    Placeholder="Latitud"
-                    Text="{Binding Latitude}" />
+                    Placeholder="Latitude"
+                    Text="{Binding Latitude}"
+                    TextColor="#831514"/>
                 <Entry
-                    Placeholder="Longitud"
-                    Text="{Binding Longitude}" />
+                    Placeholder="Longitude"
+                    Text="{Binding Longitude}"
+                    TextColor="#831514"/>
                 <Button
-                    Text="Obtener ubicación"
-                    Command="{Binding GetLocationCommand}" />
+                    Text="Get Location"
+                    Command="{Binding GetLocationCommand}"
+                    TextColor="White"
+                    BackgroundColor="#fbbebd"
+                    BorderColor="#faa4a3"
+                    BorderWidth="1"/>
                 <Entry
-                    Placeholder="Url de la Imagen"
-                    Text="{Binding ImageUrl}" />
+                    Placeholder="Image Url"
+                    Text="{Binding ImageUrl}"
+                    TextColor="#831514"/>
                 <Image
                     Source="{Binding PictureSource}" />
                 <Button
-                    Text="Tomar fotografía"
-                    Command="{Binding TakePictureCommand}" />
+                    Text="Take Picture"
+                    Command="{Binding TakePictureCommand}"
+                    TextColor="White"
+                    BackgroundColor="#fbbebd"
+                    BorderColor="#faa4a3"
+                    BorderWidth="1"/>
                 <Button
-                    Text="Seleccionar fotografía"
-                    Command="{Binding SelectPictureCommand}" />
+                    Text="Select Picture"
+                    Command="{Binding SelectPictureCommand}"
+                    TextColor="White"
+                    BackgroundColor="#fbbebd"
+                    BorderColor="#faa4a3"
+                    BorderWidth="1"/>
                 <Editor
-                    Placeholder="Notas"
+                    Placeholder="Notes"
                     VerticalOptions="FillAndExpand"
-                    Text="{Binding Notes}" />
+                    Text="{Binding Notes}"
+                    TextColor="#831514"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
