@@ -19,14 +19,6 @@ namespace AppTrips.ViewModels
 
         Command _deleteCommand;
         public Command DeleteCommand => _deleteCommand ?? (_deleteCommand = new Command(DeleteAction));
-        /*public Command SaveCommand 
-        {
-            get
-            {
-                if (_saveCommand != null) return new Command(SaveAction);
-                return _saveCommand;
-            }
-        }*/
 
         Command _GetLocationCommand;
         public Command GetLocationCommand => _GetLocationCommand ?? (_GetLocationCommand = new Command(GetLocationAction));
@@ -117,16 +109,6 @@ namespace AppTrips.ViewModels
             IsBusy = true;
             if (id == 0)
             {
-                /*TripsViewModel.GetInstance().AddNewTrip(new TripModel
-                {
-                    Title = this.Title,
-                    Notes = this.Notes,
-                    Latitude = this.Latitude,
-                    Longitude = Longitude,
-                    Rating = Rating,
-                    TripDate = TripDate,
-                    ImageUrl = ImageUrl
-                });*/
                 ApiResponse response = await new ApiService().PostDataAsync("trips", new TripModel
                 {
                     Title = this.Title,
@@ -139,7 +121,7 @@ namespace AppTrips.ViewModels
                 });
                 if (response == null)
                 {
-                    await Application.Current.MainPage.DisplayAlert("AppTrips", "Error al crear el viaje", "Ok");
+                    await Application.Current.MainPage.DisplayAlert("AppTrips", "Error creating trip", "Ok");
                     return;
                 }
                 if (!response.IsSuccess)
@@ -152,17 +134,6 @@ namespace AppTrips.ViewModels
             }
             else
             {
-                /*TripsViewModel.GetInstance().ModifyTrip(new TripModel
-                {
-                    ID = id,
-                    Title = this.Title,
-                    Notes = this.Notes,
-                    Latitude = this.Latitude,
-                    Longitude = Longitude,
-                    Rating = Rating,
-                    TripDate = TripDate,
-                    ImageUrl = ImageUrl
-                });*/
                 ApiResponse response = await new ApiService().PutDataAsync("trips", new TripModel
                 {
                     ID = id,
@@ -176,7 +147,7 @@ namespace AppTrips.ViewModels
                 });
                 if (response == null)
                 {
-                    await Application.Current.MainPage.DisplayAlert("AppTrips", "Error al actualizar el viaje", "Ok");
+                    await Application.Current.MainPage.DisplayAlert("AppTrips", "Error updating trip", "Ok");
                     return;
                 }
                 if (!response.IsSuccess)
@@ -199,7 +170,7 @@ namespace AppTrips.ViewModels
             ApiResponse response = await new ApiService().DeleteDataAsync("trips", id);
             if (response == null)
             {
-                await Application.Current.MainPage.DisplayAlert("AppTrips", "Error al eliminar el viaje", "Ok");
+                await Application.Current.MainPage.DisplayAlert("AppTrips", "Error removing trip", "Ok");
                 return;
             }
             if (!response.IsSuccess)
@@ -222,7 +193,6 @@ namespace AppTrips.ViewModels
 
                 if (location != null)
                 {
-                    //Console.WriteLine($"Latitude: {location.Latitude}, Longitude: {location.Longitude}, Altitude: {location.Altitude}");
                     Latitude = location.Latitude;
                     Longitude = location.Longitude;
                 }
@@ -286,7 +256,7 @@ namespace AppTrips.ViewModels
 
             if (!CrossMedia.Current.IsPickPhotoSupported)
             {
-                await Application.Current.MainPage.DisplayAlert("Error", "Seleccionar fotografías no soportada", "OK");
+                await Application.Current.MainPage.DisplayAlert("Error", "Not supported", "OK");
                 return;
             }
 
@@ -299,7 +269,6 @@ namespace AppTrips.ViewModels
                 return;
 
             ImageUrl = file.Path;
-            //await Application.Current.MainPage.DisplayAlert("File Location", file.Path, "OK");
 
             PictureSource = ImageSource.FromStream(() =>
             {

@@ -162,44 +162,5 @@ namespace AppTrips.Services
                 };
             }
         } 
-
-        /*public async Task<ApiResponse> DeleteDataAsync(string controller)
-        {
-            try
-            {
-                var client = new HttpClient
-                {
-                    BaseAddress = new System.Uri(ApiUrl)
-                };
-                var response = await client.DeleteAsync(controller);
-                var result = await response.Content.ReadAsStringAsync();
-
-                if (!response.IsSuccessStatusCode)
-                {
-                    return new ApiResponse
-                    {
-                        IsSuccess = false,
-                        Message = result
-                    };
-                }
-
-                var data = JsonConvert.DeserializeObject<ApiResponse>(result);
-                return new ApiResponse
-                {
-                    IsSuccess = true,
-                    Message = "Ok",
-                    Result = data
-                };
-            }
-            catch (System.Exception ex)
-            {
-                return new ApiResponse
-                {
-                    IsSuccess = false,
-                    Message = ex.Message,
-                    Result = null
-                };
-            }
-        }*/
     }
 }

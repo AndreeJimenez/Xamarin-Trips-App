@@ -18,7 +18,6 @@ namespace AppTrips.ViewModels
 
         Command _selectCommand;
         public Command SelectCommand => _selectCommand ?? (_selectCommand = new Command(SelectAction));
-        //public Command<TripModel> SelectExistingCommand => _selectExistingCommand ?? (_selectExistingCommand = new Command<TripModel>(SelectExistingAction));
 
         TripModel tripSelected;
         public TripModel TripSelected
@@ -36,7 +35,6 @@ namespace AppTrips.ViewModels
 
         public TripsViewModel()
         {
-            // Indicamos a esta variable apunte a esta instancia
             _instance = this;
             LoadTrips();
         }
@@ -46,7 +44,7 @@ namespace AppTrips.ViewModels
             ApiResponse response = await new ApiService().GetDataAsync<TripModel>("trips");
             if (response == null || !response.IsSuccess)
             {
-                await Application.Current.MainPage.DisplayAlert("Error al cargar los viajes", response.Message, "Ok");
+                await Application.Current.MainPage.DisplayAlert("Error loading trips", response.Message, "Ok");
                 return;
             }
             Trips = (ObservableCollection<TripModel>)response.Result;
@@ -72,7 +70,7 @@ namespace AppTrips.ViewModels
         {
             newTrip.ID = Trips.Count + 1;
             Trips.Add(newTrip);
-            await Application.Current.MainPage.DisplayAlert("AppTrips", "El viaje fue creado exitosamente", "Ok");
+            await Application.Current.MainPage.DisplayAlert("AppTrips", "The trip was successfully created.", "Ok");
         }
 
         public async void ModifyTrip(TripModel oldTrip)
@@ -82,7 +80,7 @@ namespace AppTrips.ViewModels
                 if (Trips[index].ID == oldTrip.ID)
                 {
                     Trips[index] = oldTrip;
-                    await Application.Current.MainPage.DisplayAlert("AppTrips", "El viaje fue modificado exitosamente", "Ok");
+                    await Application.Current.MainPage.DisplayAlert("AppTrips", "The trip was successfully updated.", "Ok");
                     return;
                 }
             }

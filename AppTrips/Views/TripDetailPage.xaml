@@ -11,19 +11,6 @@
         <ToolbarItem Text="Guardar" Command="{Binding SaveCommand}" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <!--TableView>
-            <TableView.Root>
-                <TableSection>
-                    <EntryCell x:Name="txtTitle" Label="Título" Text="{Binding Title}" />
-                    <EntryCell x:Name="txtDate" Label="Fecha" Text="{Binding TripDate}" />
-                    <EntryCell x:Name="txtRating" Label="Rating" Keyboard="Numeric" Text="{Binding Rating}" />
-                    <EntryCell x:Name="txtNotes" Label="Notas" Text="{Binding Notes}" />
-                    <EntryCell x:Name="txtLatitude" Label="Latitud" Keyboard="Numeric" Text="{Binding Latitude}" />
-                    <EntryCell x:Name="txtLongitude" Label="Longitud" Keyboard="Numeric" Text="{Binding Longitude}" />
-                    <EntryCell x:Name="txtImageUrl" Label="Imagen" Text="{Binding ImageUrl}" />
-                </TableSection>
-            </TableView.Root>
-        </-->
         <ScrollView>
             <StackLayout>
                 <ActivityIndicator
