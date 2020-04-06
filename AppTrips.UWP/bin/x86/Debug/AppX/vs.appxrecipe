@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=39f7f302-4f3d-4829-b396-b7971f9f0e9f</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>D009C91D0C1F191C08379894876844BAC13C1637FA214FB5BFBF589DD1EAB01C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a6c43dd4-4ff1-46be-b895-ea5458341fd1_1.0.0.0_x86__nm4k1jjfet3va</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a6c43dd4-4ff1-46be-b895-ea5458341fd1_nm4k1jjfet3va!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-04-05T02:19:57.862</Modified>
+      <Modified>2020-03-25T00:40:11.984</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\AppTrips.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\AppTrips.UWP.exe">
       <PackagePath>entrypoint\AppTrips.UWP.exe</PackagePath>
-      <Modified>2020-04-05T02:19:55.888</Modified>
+      <Modified>2020-03-25T00:40:10.171</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\andre\.nuget\packages\newtonsoft.json\12.0.3\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -78,9 +78,9 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2020-02-05T07:14:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips\bin\Debug\netstandard2.0\AppTrips.dll">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips\bin\Debug\netstandard2.0\AppTrips.dll">
       <PackagePath>AppTrips.dll</PackagePath>
-      <Modified>2020-04-05T02:19:48.240</Modified>
+      <Modified>2020-03-25T00:01:40.240</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -94,168 +94,168 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2020-02-05T07:14:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\not_found.png">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\not_found.png">
       <PackagePath>not_found.png</PackagePath>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\background.jpg">
-      <PackagePath>background.jpg</PackagePath>
-      <Modified>2020-03-25T05:18:18.336</Modified>
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\background-hi-dpi.jpg">
+      <PackagePath>background-hi-dpi.jpg</PackagePath>
+      <Modified>2020-03-25T00:37:32.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-03-20T01:29:11.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\AppTrips.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\AppTrips.UWP.xr.xml">
       <PackagePath>AppTrips.UWP.xr.xml</PackagePath>
       <Modified>2020-03-24T23:45:53.692</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
-      <Modified>2020-04-05T02:19:55.720</Modified>
+      <Modified>2020-03-25T00:01:47.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-04-05T02:19:55.720</Modified>
+      <Modified>2020-03-25T00:01:47.026</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-04-05T02:19:55.720</Modified>
+      <Modified>2020-03-25T00:01:47.027</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -269,13 +269,13 @@
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
       <Modified>2019-06-07T16:59:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-04-05T02:19:56.831</Modified>
+      <Modified>2020-03-25T00:40:10.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\Core\AppTrips.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\AppTrips.UWP\bin\x86\Debug\Core\AppTrips.UWP.exe">
       <PackagePath>AppTrips.UWP.exe</PackagePath>
-      <Modified>2020-04-05T02:19:57.837</Modified>
+      <Modified>2020-03-25T00:40:11.977</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

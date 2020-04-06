@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "w3o2LB/lzy0WnNBY67bctWMTfSXkAzOMfluyixcWLhZEdt+D0kCKPv21BTlZ9NbCWlNR9qe7VAIJdRW3DStCVA==",
+  "dgSpecHash": "Q9D2iFGsdFrmfwWzjs3vQ8owPOUY6w0DRTbO5r76ncL/L43LSGh767oBgyp2aupS/sJm5MY3JWP7nfm+NZiMYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips.iOS\\AppTrips.iOS.csproj",
   "expectedPackageFiles": [
@@ -16,33 +16,7 @@
       "code": "NU1605",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package downgrade: Xam.Plugin.Media from 5.0.1 to 4.0.1.5. Reference the package directly from the project to select a different version. \r\n AppTrips.iOS -> AppTrips -> Xam.Plugin.Media (>= 5.0.1) \r\n AppTrips.iOS -> Xam.Plugin.Media (>= 4.0.1.5)",
-      "libraryId": "Xam.Plugin.Media",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Essentials from 1.5.2 to 1.3.1. Reference the package directly from the project to select a different version. \r\n AppTrips.iOS -> AppTrips -> Xamarin.Essentials (>= 1.5.2) \r\n AppTrips.iOS -> Xamarin.Essentials (>= 1.3.1)",
-      "libraryId": "Xamarin.Essentials",
-      "targetGraphs": [
-        "Xamarin.iOS,Version=v1.0",
-        "Xamarin.iOS,Version=v1.0/win",
-        "Xamarin.iOS,Version=v1.0/win-x64",
-        "Xamarin.iOS,Version=v1.0/win-x86"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: Xamarin.Forms from 4.5.0.530 to 4.3.0.908675. Reference the package directly from the project to select a different version. \r\n AppTrips.iOS -> AppTrips -> Xamarin.Forms (>= 4.5.0.530) \r\n AppTrips.iOS -> Xamarin.Forms (>= 4.3.0.908675)",
+      "message": "Detected package downgrade: Xamarin.Forms from 4.4.0.991640 to 4.3.0.908675. Reference the package directly from the project to select a different version. \r\n AppTrips.iOS -> AppTrips -> Xamarin.Forms (>= 4.4.0.991640) \r\n AppTrips.iOS -> Xamarin.Forms (>= 4.3.0.908675)",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",

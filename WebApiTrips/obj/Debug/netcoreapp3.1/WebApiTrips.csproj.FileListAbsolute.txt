@@ -313,11 +313,11 @@ C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\WebApiTrip
 C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\WebApiTrips\obj\Debug\netcoreapp3.1\WebApiTrips.dll
 C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\WebApiTrips\obj\Debug\netcoreapp3.1\WebApiTrips.pdb
 C:\Users\andre\OneDrive\Escritorio\Proyectos Multiplataforma\AppTrips\WebApiTrips\obj\Debug\netcoreapp3.1\WebApiTrips.genruntimeconfig.cache
+C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\web.config
 C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\WebApiTrips.exe
-C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\web.config
 C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\WebApiTrips.deps.json
 C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\WebApiTrips.runtimeconfig.json
 C:\Users\andre\OneDrive\Escritorio\Xamarin-Trips-App\WebApiTrips\bin\Debug\netcoreapp3.1\WebApiTrips.runtimeconfig.dev.json
