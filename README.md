@@ -1,9 +1,5 @@
 # Xamarin-Trips-App
 
-<h3>Technologies Used</h3>
+## Preview
 
-* Xamarin 
-* MySQL
-* C#
-
-This is an University Project
+<img src="./images/TripsAppPreview.png" />
