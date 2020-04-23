@@ -9,6 +9,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Delete" Command="{Binding DeleteCommand}" />
         <ToolbarItem Text="Save" Command="{Binding SaveCommand}" />
+        <ToolbarItem Text="Map" Command="{Binding MapCommand}" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ScrollView>

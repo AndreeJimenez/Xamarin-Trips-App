@@ -1,5 +1,6 @@
 ﻿using AppTrips.Models;
 using AppTrips.Services;
+using AppTrips.Views;
 using Plugin.Media;
 using System;
 using System.Collections.Generic;
@@ -22,6 +23,9 @@ namespace AppTrips.ViewModels
 
         Command _GetLocationCommand;
         public Command GetLocationCommand => _GetLocationCommand ?? (_GetLocationCommand = new Command(GetLocationAction));
+
+        Command _MapCommand;
+        public Command MapCommand => _MapCommand ?? (_MapCommand = new Command(MapAction));
 
         Command _TakePictureCommand;
         public Command TakePictureCommand => _TakePictureCommand ?? (_TakePictureCommand = new Command(TakePictureAction));
@@ -183,6 +187,19 @@ namespace AppTrips.ViewModels
 
             IsBusy = false;
             await Application.Current.MainPage.Navigation.PopAsync();
+        }
+
+        private void MapAction()
+        {
+            Application.Current.MainPage.Navigation.PushAsync(new TripMapPage(new TripModel
+            {
+                Title = this.Title,
+                Notes = this.Notes,
+                Latitude = this.Latitude,
+                Longitude = Longitude,
+                Rating = Rating,
+                TripDate = TripDate,
+            }));
         }
 
         private async void GetLocationAction()

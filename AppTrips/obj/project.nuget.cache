@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "FAj0AVRijoFpLFL5twBJnQD8JXnC/PxykkcArFUhSQ/NSfyJn7u9tmSrWhgJKs1OsfY8dHs83AQ7vi8XY59bPg==",
+  "dgSpecHash": "A+KQB5a2ewGTLoytvbuIBBLZkB8iNXmbLyzrO0bKgPWFIiu9QaOnHM75zftDzyO2w8aCW1pYtwVdY2Yvx20JbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj",
+  "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\plugin.permissions\\3.0.0.12\\plugin.permissions.3.0.0.12.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\xam.plugin.media\\4.0.1.5\\xam.plugin.media.4.0.1.5.nupkg.sha512",
-    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\4.4.0.991640\\xamarin.forms.4.4.0.991640.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.essentials\\1.5.3\\xamarin.essentials.1.5.3.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.617\\xamarin.forms.maps.4.5.0.617.nupkg.sha512"
   ],
   "logs": []
 }

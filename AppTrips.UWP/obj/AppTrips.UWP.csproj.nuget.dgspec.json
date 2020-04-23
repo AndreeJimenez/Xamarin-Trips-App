@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips.UWP\\AppTrips.UWP.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips.UWP\\AppTrips.UWP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips.UWP\\AppTrips.UWP.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips.UWP\\AppTrips.UWP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips.UWP\\AppTrips.UWP.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips.UWP\\AppTrips.UWP.csproj",
         "projectName": "AppTrips.UWP",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips.UWP\\AppTrips.UWP.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips.UWP\\AppTrips.UWP.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips.UWP\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips.UWP\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.16299": {
             "projectReferences": {
-              "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj": {
-                "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj"
+              "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj": {
+                "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj"
               }
             }
           }
@@ -45,19 +45,23 @@
           "dependencies": {
             "Microsoft.NETCore.UniversalWindowsPlatform": {
               "target": "Package",
-              "version": "[6.2.9, )"
+              "version": "[6.2.10, )"
             },
             "Xam.Plugin.Media": {
               "target": "Package",
-              "version": "[4.0.1.5, )"
+              "version": "[5.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.3, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991640, )"
+              "version": "[4.5.0.617, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.5.0.617, )"
             }
           },
           "imports": [
@@ -91,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj",
         "projectName": "AppTrips",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\AppTrips\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -141,15 +145,19 @@
             },
             "Xam.Plugin.Media": {
               "target": "Package",
-              "version": "[4.0.1.5, )"
+              "version": "[5.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.3.1, )"
+              "version": "[1.5.3, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.4.0.991640, )"
+              "version": "[4.5.0.617, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.5.0.617, )"
             }
           },
           "imports": [

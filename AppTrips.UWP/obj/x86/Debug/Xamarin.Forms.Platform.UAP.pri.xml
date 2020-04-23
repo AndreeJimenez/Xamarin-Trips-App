@@ -161,32 +161,6 @@
 						</Candidate>
 					</NamedResource>
 				</ResourceMapSubtree>
-				<ResourceMapSubtree name="Microsoft.UI.Xaml">
-					<ResourceMapSubtree name="DensityStyles">
-						<NamedResource name="Compact.xaml" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xaml">
-							<Candidate type="Path">
-								<Value>Xamarin.Forms.Platform.UAP\Microsoft.UI.Xaml\DensityStyles\Compact.xaml</Value>
-							</Candidate>
-						</NamedResource>
-						<NamedResource name="Compact.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf">
-							<Candidate type="EmbeddedData">
-								<Base64Value>[Embedded Binary Data]</Base64Value>
-							</Candidate>
-						</NamedResource>
-					</ResourceMapSubtree>
-					<ResourceMapSubtree name="Themes">
-						<NamedResource name="generic.xaml" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xaml">
-							<Candidate type="Path">
-								<Value>Xamarin.Forms.Platform.UAP\Microsoft.UI.Xaml\Themes\generic.xaml</Value>
-							</Candidate>
-						</NamedResource>
-						<NamedResource name="generic.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xbf">
-							<Candidate type="EmbeddedData">
-								<Base64Value>[Embedded Binary Data]</Base64Value>
-							</Candidate>
-						</NamedResource>
-					</ResourceMapSubtree>
-				</ResourceMapSubtree>
 				<ResourceMapSubtree name="Shell">
 					<NamedResource name="ShellStyles.xaml" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xaml">
 						<Candidate type="Path">

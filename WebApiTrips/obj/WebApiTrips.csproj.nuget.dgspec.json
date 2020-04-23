@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj": {}
+    "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj": {
+    "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj",
         "projectName": "WebApiTrips",
-        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj",
+        "projectPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\WebApiTrips\\WebApiTrips.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Xamarin-Trips-App\\WebApiTrips\\obj\\",
+        "outputPath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\WebApiTrips\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -44,7 +44,7 @@
           "dependencies": {
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[3.1.1, )"
+              "version": "[3.1.2, )"
             },
             "MySql.Data": {
               "target": "Package",
