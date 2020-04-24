@@ -2492,3 +2492,4 @@ C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.Andro
 C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.Android\obj\Debug\90\stamp\_GenerateJavaStubs.stamp
 C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.Android\obj\Debug\90\android\src\crc64804325862d444b7c\MyEntryRenderer.java

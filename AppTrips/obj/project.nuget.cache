@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "A+KQB5a2ewGTLoytvbuIBBLZkB8iNXmbLyzrO0bKgPWFIiu9QaOnHM75zftDzyO2w8aCW1pYtwVdY2Yvx20JbQ==",
+  "dgSpecHash": "jaEttFXvysUl2nVpEUPpCsUpndn+/EhjMzXP1G78rj1ZkOuOSrB8FCoCjY0qbWmySZFPZz21kWvCB/wWfST97g==",
   "success": true,
   "projectFilePath": "C:\\Users\\andre\\OneDrive\\Escritorio\\Repositories\\Xamarin-Trips-App\\AppTrips\\AppTrips.csproj",
   "expectedPackageFiles": [
@@ -9,9 +9,9 @@
     "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\xamarin.essentials\\1.5.3\\xamarin.essentials.1.5.3.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512",
-    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.617\\xamarin.forms.maps.4.5.0.617.nupkg.sha512"
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms\\4.5.0.657\\xamarin.forms.4.5.0.657.nupkg.sha512",
+    "C:\\Users\\andre\\.nuget\\packages\\xamarin.forms.maps\\4.5.0.657\\xamarin.forms.maps.4.5.0.657.nupkg.sha512"
   ],
   "logs": []
 }

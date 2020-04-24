@@ -1,6 +1,9 @@
 AppTrips.Droid.MainActivity, AppTrips.Android;crc64cc69398da684ad77.MainActivity
 AppTrips.Droid.MainActivity;crc64cc69398da684ad77.MainActivity
 apptrips.droid.MainActivity;crc64cc69398da684ad77.MainActivity
+AppTrips.Droid.Renders.MyEntryRenderer, AppTrips.Android;crc64804325862d444b7c.MyEntryRenderer
+AppTrips.Droid.Renders.MyEntryRenderer;crc64804325862d444b7c.MyEntryRenderer
+apptrips.droid.renders.MyEntryRenderer;crc64804325862d444b7c.MyEntryRenderer
 Plugin.Media.MediaPickerActivity, Plugin.Media;crc646957603ea1820544.MediaPickerActivity
 Plugin.Media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity
 plugin.media.MediaPickerActivity;crc646957603ea1820544.MediaPickerActivity

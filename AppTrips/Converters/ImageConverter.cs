@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppTrips.Services;
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text;
@@ -14,7 +15,7 @@ namespace AppTrips.Converters
             {
                 return "not_found.png";
             }
-            return value;
+            return new ImageService().ConvertImageFromBase64ToImageSource(value.ToString());
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

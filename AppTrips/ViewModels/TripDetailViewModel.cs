@@ -82,13 +82,6 @@ namespace AppTrips.ViewModels
             set => SetProperty(ref _ImageUrl, value);
         }
 
-        ImageSource _PictureSource;
-        public ImageSource PictureSource
-        {
-            get => _PictureSource;
-            set => SetProperty(ref _PictureSource, value);
-        }
-
         public TripDetailViewModel()
         {
         }
@@ -254,14 +247,8 @@ namespace AppTrips.ViewModels
             if (file == null)
                 return;
 
-            ImageUrl = file.Path;
+            ImageUrl = await new ImageService().ConvertImageFileToBase64(file.Path);
             await Application.Current.MainPage.DisplayAlert("File Location", file.Path, "OK");
-
-            PictureSource = ImageSource.FromStream(() =>
-            {
-                var stream = file.GetStream();
-                return stream;
-            });
         }
 
         private async void SelectPictureAction()
@@ -285,13 +272,7 @@ namespace AppTrips.ViewModels
             if (file == null)
                 return;
 
-            ImageUrl = file.Path;
-
-            PictureSource = ImageSource.FromStream(() =>
-            {
-                var stream = file.GetStream();
-                return stream;
-            });
+            ImageUrl = await new ImageService().ConvertImageFileToBase64(file.Path);
         }
     }
 }

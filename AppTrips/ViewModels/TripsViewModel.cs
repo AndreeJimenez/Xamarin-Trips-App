@@ -13,6 +13,9 @@ namespace AppTrips.ViewModels
     {
         static TripsViewModel _instance;
 
+        Command refreshCommand;
+        public Command RefreshCommand => refreshCommand ?? (refreshCommand = new Command(RefreshTrips));
+
         Command _newCommand;
         public Command NewCommand => _newCommand ?? (_newCommand = new Command(NewAction));
 
@@ -48,6 +51,8 @@ namespace AppTrips.ViewModels
                 return;
             }
             Trips = (ObservableCollection<TripModel>)response.Result;
+
+            IsBusy = false;
         }
 
         public static TripsViewModel GetInstance()
@@ -64,26 +69,6 @@ namespace AppTrips.ViewModels
         private void SelectAction()
         {
             Application.Current.MainPage.Navigation.PushAsync(new TripDetailPage(TripSelected));
-        }
-
-        public async void AddNewTrip(TripModel newTrip)
-        {
-            newTrip.ID = Trips.Count + 1;
-            Trips.Add(newTrip);
-            await Application.Current.MainPage.DisplayAlert("AppTrips", "The trip was successfully created.", "Ok");
-        }
-
-        public async void ModifyTrip(TripModel oldTrip)
-        {
-            for(int index = 0; index < Trips.Count; index++)
-            {
-                if (Trips[index].ID == oldTrip.ID)
-                {
-                    Trips[index] = oldTrip;
-                    await Application.Current.MainPage.DisplayAlert("AppTrips", "The trip was successfully updated.", "Ok");
-                    return;
-                }
-            }
         }
 
         public void RefreshTrips()

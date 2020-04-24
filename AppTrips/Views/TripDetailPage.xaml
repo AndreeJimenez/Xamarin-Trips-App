@@ -4,8 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:triggers="clr-namespace:AppTrips.Triggers"
+             xmlns:converter="clr-namespace:AppTrips.Converters"
+             xmlns:renders="clr-namespace:AppTrips.Renders"
              mc:Ignorable="d"
              x:Class="AppTrips.Views.TripDetailPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converter:ImageConverter x:Key="ImageConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Delete" Command="{Binding DeleteCommand}" />
         <ToolbarItem Text="Save" Command="{Binding SaveCommand}" />
@@ -55,12 +62,8 @@
                     BackgroundColor="#fbbebd"
                     BorderColor="#faa4a3"
                     BorderWidth="1"/>
-                <Entry
-                    Placeholder="Image Url"
-                    Text="{Binding ImageUrl}"
-                    TextColor="#831514"/>
                 <Image
-                    Source="{Binding PictureSource}" />
+                    Source="{Binding ImageUrl, Converter={StaticResource ImageConverter}}"/>
                 <Button
                     Text="Take Picture"
                     Command="{Binding TakePictureCommand}"
@@ -80,6 +83,7 @@
                     VerticalOptions="FillAndExpand"
                     Text="{Binding Notes}"
                     TextColor="#831514"/>
+                <renders:MyEntry Text="Prueba de render" />
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Renders\MyEntryRenderer.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -128,10 +129,10 @@
     <PackageReference Include="Xam.Plugin.Media">
       <Version>5.0.1</Version>
     </PackageReference>
-    <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3" />
+    <PackageReference Include="Xamarin.Forms" Version="4.5.0.657" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.1" />
     <PackageReference Include="Xamarin.Forms.Maps">
-      <Version>4.5.0.617</Version>
+      <Version>4.5.0.657</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
@@ -144,4 +145,5 @@
   <ItemGroup>
     <BundleResource Include="Resources\background2.png" />
   </ItemGroup>
+  <ItemGroup />
 </Project>
