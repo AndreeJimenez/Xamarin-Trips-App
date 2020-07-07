@@ -211,3 +211,8 @@ C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\o
 C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.Graphics.Canvas.winmd_636160931180000000.json
 C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885526160000000.json
+C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\obj\x86\Debug\MarkerWindow.g.i.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\obj\x86\Debug\MarkerWindow.g.cs
+C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\obj\x86\Debug\MarkerWindow.xaml
+C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\obj\x86\Debug\MarkerWindow.xbf
+C:\Users\andre\OneDrive\Escritorio\Repositories\Xamarin-Trips-App\AppTrips.UWP\bin\x86\Debug\MarkerWindow.xbf

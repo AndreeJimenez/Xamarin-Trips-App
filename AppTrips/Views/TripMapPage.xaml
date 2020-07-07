@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             xmlns:renders="clr-namespace:AppTrips.Renders"
              mc:Ignorable="d"
              x:Class="AppTrips.Views.TripMapPage">
     <ContentPage.Content>
@@ -13,7 +14,10 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="1*" />
             </Grid.RowDefinitions>
-            <maps:Map
+            <!--<maps:Map
+                x:Name="MapTrip"
+                Grid.RowSpan="3" />-->
+            <renders:CustomMap 
                 x:Name="MapTrip"
                 Grid.RowSpan="3" />
             <BoxView

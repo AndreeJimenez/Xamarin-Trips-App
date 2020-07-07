@@ -192,6 +192,7 @@ namespace AppTrips.ViewModels
                 Longitude = Longitude,
                 Rating = Rating,
                 TripDate = TripDate,
+                ImageUrl = ImageUrl
             }));
         }
 

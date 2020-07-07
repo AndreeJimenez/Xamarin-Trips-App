@@ -203,7 +203,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.3.191211002": {
+      "Microsoft.UI.Xaml/2.4.2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -363,7 +363,7 @@
           "lib/uap10.0.16299/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
@@ -375,11 +375,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.657": {
+      "Xamarin.Forms/4.7.0.1080": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.15",
-          "Microsoft.UI.Xaml": "2.3.191211002",
+          "Microsoft.UI.Xaml": "2.4.2",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -399,10 +399,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.657": {
+      "Xamarin.Forms.Maps/4.7.0.1080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.657"
+          "Xamarin.Forms": "4.7.0.1080"
         },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
@@ -419,9 +419,9 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.5.3.1",
-          "Xamarin.Forms": "4.5.0.657",
-          "Xamarin.Forms.Maps": "4.5.0.657"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080",
+          "Xamarin.Forms.Maps": "4.7.0.1080"
         },
         "compile": {
           "bin/placeholder/AppTrips.dll": {}
@@ -634,7 +634,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.3.191211002": {
+      "Microsoft.UI.Xaml/2.4.2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -961,7 +961,7 @@
           "lib/uap10.0.16299/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
@@ -973,11 +973,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.657": {
+      "Xamarin.Forms/4.7.0.1080": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.15",
-          "Microsoft.UI.Xaml": "2.3.191211002",
+          "Microsoft.UI.Xaml": "2.4.2",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -997,10 +997,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.657": {
+      "Xamarin.Forms.Maps/4.7.0.1080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.657"
+          "Xamarin.Forms": "4.7.0.1080"
         },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
@@ -1017,9 +1017,9 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.5.3.1",
-          "Xamarin.Forms": "4.5.0.657",
-          "Xamarin.Forms.Maps": "4.5.0.657"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080",
+          "Xamarin.Forms.Maps": "4.7.0.1080"
         },
         "compile": {
           "bin/placeholder/AppTrips.dll": {}
@@ -1232,7 +1232,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.3.191211002": {
+      "Microsoft.UI.Xaml/2.4.2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -1560,7 +1560,7 @@
           "lib/uap10.0.16299/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
@@ -1572,11 +1572,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.657": {
+      "Xamarin.Forms/4.7.0.1080": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.15",
-          "Microsoft.UI.Xaml": "2.3.191211002",
+          "Microsoft.UI.Xaml": "2.4.2",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -1596,10 +1596,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.657": {
+      "Xamarin.Forms.Maps/4.7.0.1080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.657"
+          "Xamarin.Forms": "4.7.0.1080"
         },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
@@ -1616,9 +1616,9 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.5.3.1",
-          "Xamarin.Forms": "4.5.0.657",
-          "Xamarin.Forms.Maps": "4.5.0.657"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080",
+          "Xamarin.Forms.Maps": "4.7.0.1080"
         },
         "compile": {
           "bin/placeholder/AppTrips.dll": {}
@@ -1831,7 +1831,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.3.191211002": {
+      "Microsoft.UI.Xaml/2.4.2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -2156,7 +2156,7 @@
           "lib/uap10.0.16299/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
@@ -2168,11 +2168,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.657": {
+      "Xamarin.Forms/4.7.0.1080": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.15",
-          "Microsoft.UI.Xaml": "2.3.191211002",
+          "Microsoft.UI.Xaml": "2.4.2",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -2192,10 +2192,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.657": {
+      "Xamarin.Forms.Maps/4.7.0.1080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.657"
+          "Xamarin.Forms": "4.7.0.1080"
         },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
@@ -2212,9 +2212,9 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.5.3.1",
-          "Xamarin.Forms": "4.5.0.657",
-          "Xamarin.Forms.Maps": "4.5.0.657"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080",
+          "Xamarin.Forms.Maps": "4.7.0.1080"
         },
         "compile": {
           "bin/placeholder/AppTrips.dll": {}
@@ -2427,7 +2427,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.3.191211002": {
+      "Microsoft.UI.Xaml/2.4.2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -2754,7 +2754,7 @@
           "lib/uap10.0.16299/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
@@ -2766,11 +2766,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.657": {
+      "Xamarin.Forms/4.7.0.1080": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.15",
-          "Microsoft.UI.Xaml": "2.3.191211002",
+          "Microsoft.UI.Xaml": "2.4.2",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -2790,10 +2790,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.657": {
+      "Xamarin.Forms.Maps/4.7.0.1080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.657"
+          "Xamarin.Forms": "4.7.0.1080"
         },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
@@ -2810,9 +2810,9 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.5.3.1",
-          "Xamarin.Forms": "4.5.0.657",
-          "Xamarin.Forms.Maps": "4.5.0.657"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080",
+          "Xamarin.Forms.Maps": "4.7.0.1080"
         },
         "compile": {
           "bin/placeholder/AppTrips.dll": {}
@@ -3025,7 +3025,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.3.191211002": {
+      "Microsoft.UI.Xaml/2.4.2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -3353,7 +3353,7 @@
           "lib/uap10.0.16299/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
@@ -3365,11 +3365,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.657": {
+      "Xamarin.Forms/4.7.0.1080": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.15",
-          "Microsoft.UI.Xaml": "2.3.191211002",
+          "Microsoft.UI.Xaml": "2.4.2",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -3389,10 +3389,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.657": {
+      "Xamarin.Forms.Maps/4.7.0.1080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.657"
+          "Xamarin.Forms": "4.7.0.1080"
         },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
@@ -3409,9 +3409,9 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.5.3.1",
-          "Xamarin.Forms": "4.5.0.657",
-          "Xamarin.Forms.Maps": "4.5.0.657"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080",
+          "Xamarin.Forms.Maps": "4.7.0.1080"
         },
         "compile": {
           "bin/placeholder/AppTrips.dll": {}
@@ -3624,7 +3624,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.3.191211002": {
+      "Microsoft.UI.Xaml/2.4.2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -3951,7 +3951,7 @@
           "lib/uap10.0.16299/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
@@ -3963,11 +3963,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.657": {
+      "Xamarin.Forms/4.7.0.1080": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.15",
-          "Microsoft.UI.Xaml": "2.3.191211002",
+          "Microsoft.UI.Xaml": "2.4.2",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -3987,10 +3987,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.657": {
+      "Xamarin.Forms.Maps/4.7.0.1080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.657"
+          "Xamarin.Forms": "4.7.0.1080"
         },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
@@ -4007,9 +4007,9 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.5.3.1",
-          "Xamarin.Forms": "4.5.0.657",
-          "Xamarin.Forms.Maps": "4.5.0.657"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080",
+          "Xamarin.Forms.Maps": "4.7.0.1080"
         },
         "compile": {
           "bin/placeholder/AppTrips.dll": {}
@@ -4222,7 +4222,7 @@
           "build/Microsoft.NetCore.UniversalWindowsPlatform.targets": {}
         }
       },
-      "Microsoft.UI.Xaml/2.3.191211002": {
+      "Microsoft.UI.Xaml/2.4.2": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Microsoft.UI.Xaml.winmd": {}
@@ -4550,7 +4550,7 @@
           "lib/uap10.0.16299/Plugin.Media.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3.1": {
+      "Xamarin.Essentials/1.5.3.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9"
@@ -4562,11 +4562,11 @@
           "lib/uap10.0.16299/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/4.5.0.657": {
+      "Xamarin.Forms/4.7.0.1080": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.15",
-          "Microsoft.UI.Xaml": "2.3.191211002",
+          "Microsoft.UI.Xaml": "2.4.2",
           "Win2D.uwp": "1.20.0"
         },
         "compile": {
@@ -4586,10 +4586,10 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.Forms.Maps/4.5.0.657": {
+      "Xamarin.Forms.Maps/4.7.0.1080": {
         "type": "package",
         "dependencies": {
-          "Xamarin.Forms": "4.5.0.657"
+          "Xamarin.Forms": "4.7.0.1080"
         },
         "compile": {
           "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll": {},
@@ -4606,9 +4606,9 @@
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
           "Xam.Plugin.Media": "5.0.1",
-          "Xamarin.Essentials": "1.5.3.1",
-          "Xamarin.Forms": "4.5.0.657",
-          "Xamarin.Forms.Maps": "4.5.0.657"
+          "Xamarin.Essentials": "1.5.3.2",
+          "Xamarin.Forms": "4.7.0.1080",
+          "Xamarin.Forms.Maps": "4.7.0.1080"
         },
         "compile": {
           "bin/placeholder/AppTrips.dll": {}
@@ -5001,10 +5001,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.UI.Xaml/2.3.191211002": {
-      "sha512": "Sr27CVH8Dh4jSPYXKYLrMeuNfPFZSh1/t5W/xD8MKjDlPdv9vHQdCFUCtMqEKZalNQIo35UUSV6jgl5ZeRihIg==",
+    "Microsoft.UI.Xaml/2.4.2": {
+      "sha512": "EPuBFtyrKi7VweJEB6pBQE9lsQKMT0xaHHsQwDnm5yusYFGRCnPLuwptRfEeXbZemkpnXU6NmtC7FY5WBMqxGA==",
       "type": "package",
-      "path": "microsoft.ui.xaml/2.3.191211002",
+      "path": "microsoft.ui.xaml/2.4.2",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -5022,13 +5022,13 @@
         "lib/uap10.0/Microsoft.UI.Xaml.xml",
         "lib/uap10.0/Microsoft.UI.Xaml/Themes/Generic.xaml",
         "license.txt",
-        "microsoft.ui.xaml.2.3.191211002.nupkg.sha512",
+        "microsoft.ui.xaml.2.4.2.nupkg.sha512",
         "microsoft.ui.xaml.nuspec",
         "readme.txt",
-        "tools/AppX/arm/Release/Microsoft.UI.Xaml.2.3.appx",
-        "tools/AppX/arm64/Release/Microsoft.UI.Xaml.2.3.appx",
-        "tools/AppX/x64/Release/Microsoft.UI.Xaml.2.3.appx",
-        "tools/AppX/x86/Release/Microsoft.UI.Xaml.2.3.appx",
+        "tools/AppX/arm/Release/Microsoft.UI.Xaml.2.4.appx",
+        "tools/AppX/arm64/Release/Microsoft.UI.Xaml.2.4.appx",
+        "tools/AppX/x64/Release/Microsoft.UI.Xaml.2.4.appx",
+        "tools/AppX/x86/Release/Microsoft.UI.Xaml.2.4.appx",
         "tools/VisualStudioToolsManifest.xml"
       ]
     },
@@ -9170,10 +9170,10 @@
         "xam.plugin.media.nuspec"
       ]
     },
-    "Xamarin.Essentials/1.5.3.1": {
-      "sha512": "6sE3kGMhES7dsR8ll+ar+roEIFobjPfDskKNMsU4FF6cV27ZsdArGZHxe1QqPPJcMT6PzJsGvA3l5PNMZgw5ng==",
+    "Xamarin.Essentials/1.5.3.2": {
+      "sha512": "BSLgDJUOPFRwTpQaftM+s4qb/MsTjrqXulEYDOcK6KF3i0Orf75zo3RwRfqnQ8WfpoEFxW/v0jgcPWCvOMgHxg==",
       "type": "package",
-      "path": "xamarin.essentials/1.5.3.1",
+      "path": "xamarin.essentials/1.5.3.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -9214,17 +9214,18 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.5.3.1.nupkg.sha512",
+        "xamarin.essentials.1.5.3.2.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/4.5.0.657": {
-      "sha512": "S6WmhCKBRDMG5woHEIRA8MBZv6yn2jZ8Kf9DzzcOuB5gXivH1S5mIiSt4yoaa9HwfNUcg2d7AH2GEoICmH5bJg==",
+    "Xamarin.Forms/4.7.0.1080": {
+      "sha512": "YN04zJoVBBKdhYnIK1lwZJTGCFrHJ+bUfqQK4aKy8oDjthh5JlNcjetUS+eV+JK9XcmYpS2SxpmDxFFXxSfONQ==",
       "type": "package",
-      "path": "xamarin.forms/4.5.0.657",
+      "path": "xamarin.forms/4.7.0.1080",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Assets/xamarin_128x128.png",
         "build/MonoAndroid10/proguard.cfg",
         "build/XCODE10/Xamarin.Forms.Platform.iOS.dll",
         "build/XCODE10/Xamarin.Forms.Platform.iOS.pdb",
@@ -9304,8 +9305,8 @@
         "lib/MonoAndroid10.0/ja/Xamarin.Forms.Xaml.xml",
         "lib/MonoAndroid10.0/ko/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10.0/ko/Xamarin.Forms.Xaml.xml",
-        "lib/MonoAndroid10.0/pt-br/Xamarin.Forms.Core.xml",
-        "lib/MonoAndroid10.0/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid10.0/pt-BR/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid10.0/pt-BR/Xamarin.Forms.Xaml.xml",
         "lib/MonoAndroid10.0/ru/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10.0/ru/Xamarin.Forms.Xaml.xml",
         "lib/MonoAndroid10.0/zh-Hans/Xamarin.Forms.Core.xml",
@@ -9337,8 +9338,8 @@
         "lib/MonoAndroid90/ja/Xamarin.Forms.Xaml.xml",
         "lib/MonoAndroid90/ko/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid90/ko/Xamarin.Forms.Xaml.xml",
-        "lib/MonoAndroid90/pt-br/Xamarin.Forms.Core.xml",
-        "lib/MonoAndroid90/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/pt-BR/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/pt-BR/Xamarin.Forms.Xaml.xml",
         "lib/MonoAndroid90/ru/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid90/ru/Xamarin.Forms.Xaml.xml",
         "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Core.xml",
@@ -9392,9 +9393,9 @@
         "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
-        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Core.xml",
-        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll",
-        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Xaml.xml",
         "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
         "lib/Xamarin.iOS10/ru/Xamarin.Forms.Core.xml",
@@ -9443,8 +9444,8 @@
         "lib/netstandard2.0/ja/Xamarin.Forms.Xaml.xml",
         "lib/netstandard2.0/ko/Xamarin.Forms.Core.xml",
         "lib/netstandard2.0/ko/Xamarin.Forms.Xaml.xml",
-        "lib/netstandard2.0/pt-br/Xamarin.Forms.Core.xml",
-        "lib/netstandard2.0/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/pt-BR/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/pt-BR/Xamarin.Forms.Xaml.xml",
         "lib/netstandard2.0/ru/Xamarin.Forms.Core.xml",
         "lib/netstandard2.0/ru/Xamarin.Forms.Xaml.xml",
         "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Core.xml",
@@ -9484,8 +9485,8 @@
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PageControlStyle.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PickerStyle.xaml",
+        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/PromptDialog.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Resources.xaml",
-        "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/SliderStyle.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/StepperControl.xaml",
         "lib/uap10.0.14393/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xaml",
@@ -9516,6 +9517,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/Themes/generic.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PageControlStyle.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PickerStyle.xaml",
+        "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/PromptDialog.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Resources.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xaml",
         "lib/uap10.0.16299/Xamarin.Forms.Platform.UAP/SliderStyle.xaml",
@@ -9526,17 +9528,18 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.4.5.0.657.nupkg.sha512",
+        "xamarin.forms.4.7.0.1080.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.Forms.Maps/4.5.0.657": {
-      "sha512": "kAXAcnvFNdDFC5/zfZpx2ofkgIxcS3zKwDeRoBdWW/vAk/DGA5HDdId6/MBXTOPlM68T7CHTCHiL+W1d2KCKtg==",
+    "Xamarin.Forms.Maps/4.7.0.1080": {
+      "sha512": "l3mD55hvLQNxGPUTQWilCREkeoJ+vd6NjMgYFZTxQmUnrbwbz3v6HDCRRuIzXRNKnng+KQbppCGg6hfnIAcp6Q==",
       "type": "package",
-      "path": "xamarin.forms.maps/4.5.0.657",
+      "path": "xamarin.forms.maps/4.7.0.1080",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Assets/xamarin_128x128.png",
         "lib/MonoAndroid10.0/Xamarin.Forms.Maps.Android.dll",
         "lib/MonoAndroid10.0/Xamarin.Forms.Maps.dll",
         "lib/MonoAndroid10.0/Xamarin.Forms.Maps.xml",
@@ -9562,7 +9565,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Maps.UWP.pri",
         "lib/uap10.0.16299/Xamarin.Forms.Maps.dll",
-        "xamarin.forms.maps.4.5.0.657.nupkg.sha512",
+        "xamarin.forms.maps.4.7.0.1080.nupkg.sha512",
         "xamarin.forms.maps.nuspec"
       ]
     },
@@ -9577,9 +9580,9 @@
       "AppTrips >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.10",
       "Xam.Plugin.Media >= 5.0.1",
-      "Xamarin.Essentials >= 1.5.3.1",
-      "Xamarin.Forms >= 4.5.0.657",
-      "Xamarin.Forms.Maps >= 4.5.0.657"
+      "Xamarin.Essentials >= 1.5.3.2",
+      "Xamarin.Forms >= 4.7.0.1080",
+      "Xamarin.Forms.Maps >= 4.7.0.1080"
     ]
   },
   "packageFolders": {
@@ -9636,15 +9639,15 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.5.3.1, )"
+            "version": "[1.5.3.2, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[4.5.0.657, )"
+            "version": "[4.7.0.1080, )"
           },
           "Xamarin.Forms.Maps": {
             "target": "Package",
-            "version": "[4.5.0.657, )"
+            "version": "[4.7.0.1080, )"
           }
         },
         "imports": [

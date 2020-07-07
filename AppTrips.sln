@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTrips.iOS", "AppTrips.iO
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTrips", "AppTrips\AppTrips.csproj", "{634E62FF-24F3-4739-8319-F9B2268DFFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiTrips", "WebApiTrips\WebApiTrips.csproj", "{D460D4EA-C03A-42C0-88DA-8D4E10E3E8AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiTrips", "WebApiTrips\WebApiTrips.csproj", "{D460D4EA-C03A-42C0-88DA-8D4E10E3E8AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

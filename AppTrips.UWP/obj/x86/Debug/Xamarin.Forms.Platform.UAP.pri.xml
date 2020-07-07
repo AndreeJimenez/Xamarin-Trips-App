@@ -104,6 +104,16 @@
 						<Base64Value>[Embedded Binary Data]</Base64Value>
 					</Candidate>
 				</NamedResource>
+				<NamedResource name="PromptDialog.xaml" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/PromptDialog.xaml">
+					<Candidate type="Path">
+						<Value>Xamarin.Forms.Platform.UAP\PromptDialog.xaml</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PromptDialog.xbf" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/PromptDialog.xbf">
+					<Candidate type="EmbeddedData">
+						<Base64Value>[Embedded Binary Data]</Base64Value>
+					</Candidate>
+				</NamedResource>
 				<NamedResource name="Resources.xaml" uri="ms-resource://Xamarin.Forms.Platform.UAP/Files/Xamarin.Forms.Platform.UAP/Resources.xaml">
 					<Candidate type="Path">
 						<Value>Xamarin.Forms.Platform.UAP\Resources.xaml</Value>

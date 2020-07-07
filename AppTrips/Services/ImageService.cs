@@ -52,5 +52,19 @@ namespace AppTrips.Services
             }
         }
 
+        public string SaveImageFromBase64(string imageBase64)
+        {
+            if (!string.IsNullOrEmpty(imageBase64))
+            {
+                string filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "image.tmp");
+                byte[] data = Convert.FromBase64String(imageBase64);
+                System.IO.File.WriteAllBytes(filePath, data);
+                return filePath;
+            }
+            else
+            {
+                return "";
+            }
+        }
     }
 }
